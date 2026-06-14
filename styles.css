@@ -27,7 +27,7 @@ body{
 .preview-container{
     margin-inline: auto;
     width: 100%;
-    max-width: 340px;
+    max-width: 360px;
     border-radius: 20px;
     background-color: var(--card-color);
     padding: 20px;
@@ -44,6 +44,8 @@ body{
     & time{
         display: block;
         margin-block: 1em;
+        font-size: 14px;
+        font-weight: 500;
     }
 
     & h2{
@@ -57,12 +59,15 @@ body{
 
     & .preview-description{
         color: var(--description-color);
+        font-size: 16px;
     }
 }
 .author{
     display: flex;
     align-items: center;
+    margin-top: 25px;
     gap: 10px;
+    font-size: 14px;
     font-weight: bold;
 
     & .image-avatar{
